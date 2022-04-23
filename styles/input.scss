@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.grid-column-component {
+  width: 80%;
+  max-width: 1060px;
+  // height: 60vh;
+  // max-height: 50%;
+  display: flex;
+  border-radius: 100px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.section-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.section-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.section-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.section-heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 95%);
+}
+
+.section-text {
+  display: flex;
+  align-items: center;
+
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 30px;
+}
+
+.learn-more-btn {
+  background-color: hsl(0, 0%, 95%);
+  padding: 0.9rem;
+  width: 8rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+a {
+  margin-top: 2rem;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.very-dark-cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+
+.bright-orange {
+  color: hsl(31, 77%, 52%);
+}
+
+@media (max-width: 900px) {
+  .grid-column-component {
+    flex-direction: column;
+    max-width: 375px;
+  }
+  body {
+    padding: 3.5rem 0;
+  }
+  .grid-column-component {
+    // flex-direction: column;
+    // max-width: 500px;
+  }
+
+  .section-sedan {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .section-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+  }
+
+  .section-content {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 901px) {
+  .grid-column-component {
+    height: 56%;
+
+  }
+  body {
+    height: 100vh;
+  }
+
+  .section-sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .section-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+  }
+  .section-heading {
+    // margin: 1.7rem 0;
+  }
+  .section-content {
+    //   height: 700px;
+  }
+}

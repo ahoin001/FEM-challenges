@@ -5,7 +5,6 @@
 }
 
 body {
-  // height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,8 +15,6 @@ body {
 .grid-column-component {
   width: 80%;
   max-width: 1060px;
-  // height: 60vh;
-  // max-height: 50%;
   display: flex;
   border-radius: 100px;
 }
@@ -30,35 +27,34 @@ body {
 }
 
 .section-sedan {
-  background-color: hsl(31, 77%, 52%);
+  background-color: hsl(31deg, 77%, 52%);
 }
 
 .section-suv {
-  background-color: hsl(184, 100%, 22%);
+  background-color: hsl(184deg, 100%, 22%);
 }
 
 .section-luxury {
-  background-color: hsl(179, 100%, 13%);
+  background-color: hsl(179deg, 100%, 13%);
 }
 
 .section-heading {
   font-family: "Big Shoulders Display", cursive;
   font-size: 2.5rem;
-  color: hsl(0, 0%, 95%);
+  color: hsl(0deg, 0%, 95%);
 }
 
 .section-text {
   display: flex;
   align-items: center;
-
   font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
-  color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 30px;
 }
 
 .learn-more-btn {
-  background-color: hsl(0, 0%, 95%);
+  background-color: hsl(0deg, 0%, 95%);
   padding: 0.9rem;
   width: 8rem;
   text-align: center;
@@ -72,15 +68,15 @@ a {
 }
 
 .very-dark-cyan {
-  color: hsl(184, 100%, 22%);
+  color: hsl(184deg, 100%, 22%);
 }
 
 .dark-cyan {
-  color: hsl(179, 100%, 13%);
+  color: hsl(179deg, 100%, 13%);
 }
 
 .bright-orange {
-  color: hsl(31, 77%, 52%);
+  color: hsl(31deg, 77%, 52%);
 }
 
 @media (max-width: 900px) {
@@ -88,12 +84,9 @@ a {
     flex-direction: column;
     max-width: 375px;
   }
+
   body {
     padding: 3.5rem 0;
-  }
-  .grid-column-component {
-    // flex-direction: column;
-    // max-width: 500px;
   }
 
   .section-sedan {
@@ -101,7 +94,7 @@ a {
   }
 
   .section-luxury {
-    background-color: hsl(179, 100%, 13%);
+    background-color: hsl(179deg, 100%, 13%);
     border-radius: 0 0 10px 10px;
   }
 
@@ -109,12 +102,11 @@ a {
     height: 30rem;
   }
 }
-
 @media (min-width: 901px) {
   .grid-column-component {
-    height: 46%;
-    // max-width: 500px;
+    height: 56%;
   }
+
   body {
     height: 100vh;
   }
@@ -124,13 +116,9 @@ a {
   }
 
   .section-luxury {
-    background-color: hsl(179, 100%, 13%);
+    background-color: hsl(179deg, 100%, 13%);
     border-radius: 0 10px 10px 0;
   }
-  .section-heading {
-    // margin: 1.7rem 0;
-  }
-  .section-content {
-    //   height: 700px;
-  }
 }
+
+/*# sourceMappingURL=output.css.map */

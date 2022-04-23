@@ -24,6 +24,9 @@ body {
   flex-direction: column;
   justify-content: space-around;
   padding: 3rem;
+}
+
+.section-sedan {
   background-color: hsl(31deg, 77%, 52%);
 }
 
@@ -79,12 +82,42 @@ a {
 @media (max-width: 900px) {
   .grid-column-component {
     flex-direction: column;
-    max-width: 500px;
+    max-width: 375px;
+  }
+
+  body {
+    padding: 3.5rem 0;
+  }
+
+  .section-sedan {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .section-luxury {
+    background-color: hsl(179deg, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+  }
+
+  .section-content {
+    height: 30rem;
   }
 }
 @media (min-width: 901px) {
+  .grid-column-component {
+    height: 46%;
+  }
+
   body {
     height: 100vh;
+  }
+
+  .section-sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .section-luxury {
+    background-color: hsl(179deg, 100%, 13%);
+    border-radius: 0 10px 10px 0;
   }
 }
 

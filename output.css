@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-column-component {
+  max-width: 80%;
+  display: flex;
+  height: 30rem;
+}
+
+.section-sedan-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5rem;
+  background-color: hsl(31deg, 77%, 52%);
+}
+
+.section-suv {
+  background-color: hsl(184deg, 100%, 22%);
+}
+
+.section-luxury {
+  background-color: hsl(179deg, 100%, 13%);
+}
+
+.section-heading {
+  color: hsl(0deg, 0%, 95%);
+}
+
+.section-text {
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.learn-more-btn {
+  background-color: hsl(0deg, 0%, 95%);
+  padding: 0.9rem;
+  width: 8rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=output.css.map */

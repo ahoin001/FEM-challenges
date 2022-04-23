@@ -105,6 +105,7 @@ a {
 @media (min-width: 901px) {
   .grid-column-component {
     height: 56%;
+    max-height: 550px;
   }
 
   body {
